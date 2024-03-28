@@ -1,0 +1,146 @@
+
+
+/* Add this CSS to your testimonials.css file */
+/* Hide scrollbar */
+.testimonial-section::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Optional: You can add styling to the container to make the scrollbar more visible */
+.testimonial-section {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+/* Add this CSS to your testimonials.css file */
+.testimonial img {
+  pointer-events: none;
+}
+/* Add this CSS to your testimonials.css file */
+.testimonial {
+  text-align: center;
+}
+
+
+.testimonial-section {
+  
+    display: flex;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrolling */
+    scroll-snap-type: x mandatory; /* Enable mandatory horizontal scrolling */
+    padding-bottom: 20px;
+    -webkit-overflow-scrolling: touch;
+    cursor: grab; /* Set cursor to grab */
+}
+
+.testimonial {
+  
+    flex: 0 0 auto;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-snap-align: start; /* Align the testimonials to start */
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    object-fit: cover;
+}
+
+.testimonial p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.testimonial h4 {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styles for when cursor is active */
+.testimonial-section:active {
+    cursor: grabbing;
+}
+
+  /* Additional CSS for mouse dragging */
+
+.testimonial-section {
+    cursor: grab; /* Set cursor to grab */
+    user-select: none; /* Disable text selection */
+  }
+  
+  /* Styles for when cursor is active */
+  .testimonial-section:active {
+    cursor: grabbing;
+  }
+  
+
+/* main.css */
+.testimonial-section {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
+}
+
+.testimonial {
+  flex: 0 0 auto;
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-snap-align: start;
+}
+.testimonials-text {
+  text-align: center; /* Center align the text */
+color: black;
+}
+
+
+
+
+
+
+.project-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.project-details p {
+  margin-right: 10px; /* Add space between elements */
+}

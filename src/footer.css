@@ -1,0 +1,106 @@
+.footer-container {
+  background-image: url('footer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
+  color: white;
+  position: relative; /* Ensure correct positioning for content */
+  padding: 20px; /* Add padding to the footer content */
+  box-sizing: border-box; /* Include padding in the total width of the footer */
+}
+
+.contact-me, .footer-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  padding: 20px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-link {
+  margin-right: 10px;
+  color: white;
+}
+
+
+
+
+
+
+.email-link, .whatsapp-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent; /* Transparent background */
+  color: #007bff; /* Blue text color */
+  border: 2px solid ; /* Transparent regular border */
+  text-decoration: none; /* Remove default underline */
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: all 0.3s ease; /* Smooth transition */
+  border-image: linear-gradient(to right, #007bff, #00ccff); /* Linear border gradient */
+  border-image-slice: 1; /* Ensure entire border is used for the image */
+}
+
+.email-link:hover, .whatsapp-link:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: white; /* White text color on hover */
+}
+
+.email-link:focus, .whatsapp-link:focus {
+  outline: none; /* Remove focus outline */
+}
+
+
+.social-links {
+  display: flex;
+  margin-top: 20px; /* Add some spacing between the contact box and social icons */
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White color for icon */
+  border-radius: 50%; /* Circular shape */
+  margin-right: 10px; /* Spacing between icons */
+  text-decoration: none; /* Remove default underline */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.social-link:hover {
+  color: rgba(255, 255, 255, 0.411); /* White color for icon */
+  background-color: #2b018b; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
+
+
+
+.contact-box p {
+  margin: 10px 0;
+}
+
+.contact-box a {
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-box a:hover {
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent white background */
+}

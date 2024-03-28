@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
+
+
+
+
+
+
+
+
+
+
+/* Header.css */
+.navbar {
+  background: linear-gradient(to right, #8B4513, #2a1d0e, #0b0702);
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.navbar-brand {
+  font-weight: bold; /* Make the brand bold */
+  color: #ffffff; /* White text color */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px; /* Adjust as needed */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* White text color */
+  position: relative; /* Add relative positioning */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #81eb00; /* White text color on hover */
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Adjust the distance of the line from the text */
+  left: 0;
+  width: 0;
+  height: 4px; /* Height of the line */
+  background-color: #81eb00; /* White color for the line */
+  transition: width 0.3s; /* Smooth transition for the line */
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-item.active .nav-link::after {
+  width: 100%; /* Show the line on hover or for the active/current item */
+}
+
+/* You can add more styles as needed */
+
+
+/* Header.css */
+.navbar-brand {
+  color: #333; /* Change color as needed */
+}
+
+.navbar-toggler {
+  border-color: #333; /* Change color as needed */
+}
+
+.nav-link {
+  color: #333; /* Change color as needed */
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+/* Header.css */
+.portfolio-text {
+  color: #fff; /* Change color as needed */
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  padding: 0 20px; /* Adjust padding as needed */
+  margin-right: auto; /* Push the text to the left side */
+}
+
+/* Header.css */
+.navbar-brand {
+  color: #fff; /* Change color as needed */
+}
+
+.navbar-toggler {
+  border-color: #fff; /* Change color as needed */
+}
+
+.nav-link {
+  color: #fff; /* Change color as needed */
+}
+
+.navbar-toggler:hover {
+  color: #ff0; /* Change color as needed */
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-toggler {
+    background-color: transparent;
+    border: none; /* Remove border for the arrow icon */
+    color: #fff; /* Change color as needed */
+  }
+
+  .navbar-toggler:hover {
+    color: #ff0; /* Change color as needed */
+  }
+}
+
+
+
+
